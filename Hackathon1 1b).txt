@@ -1,0 +1,15 @@
+// Hackathon1
+// 1b)
+import java.util.Scanner;
+class BillMonitor 
+{
+public static void main (String [] args) {
+Scanner sc = new Scanner(System.in);
+int litres = sc.nextInt();
+if (litres <= 500) {
+System.out.println("Water Bill = Rs. 100");
+} else {
+Sytem.out.println("Water Bill = Rs. 200");
+}
+}
+}
